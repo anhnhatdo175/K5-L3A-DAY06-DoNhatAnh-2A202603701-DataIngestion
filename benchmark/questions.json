@@ -1,0 +1,240 @@
+{
+  "source_id": "openstax-introduction-sociology-3e",
+  "title": "Introduction to Sociology 3e",
+  "source_path_or_url": "data/introduction-sociology-3e_-_WEB.pdf",
+  "page_numbering": "1-based physical PDF page index",
+  "selected_pdf_pages": [
+    {
+      "start": 77,
+      "end": 98,
+      "chapter": 3,
+      "topic": "Culture"
+    },
+    {
+      "start": 107,
+      "end": 114,
+      "chapter": 4,
+      "topic": "Society"
+    }
+  ],
+  "filter_field": {
+    "name": "chapter",
+    "type": "integer",
+    "values": [3, 4],
+    "value_source": "Chapter headings printed in the PDF"
+  },
+  "records": [
+    {
+      "id": "Q01",
+      "split": "dev",
+      "question": "What components does the chapter list as comprising culture?",
+      "expected_answer": "Shared values, beliefs, norms and rules, language, symbols, arts and artifacts, and people's collective identities and memories.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 78,
+      "evidence_quote": "These examples are all aspects of culture, which is comprised of shared values (ideals), beliefs which strengthen the values, norms and rules that maintain the values, language so that the values can be taught, symbols that form the language people must learn, arts and artifacts, and the people's collective identities and memories.",
+      "filter": null
+    },
+    {
+      "id": "Q02",
+      "split": "dev",
+      "question": "In the discussion of cultural universals, what did Fritz and his team identify as universal?",
+      "expected_answer": "Music and the emotions it conveys.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 81,
+      "evidence_quote": "As Fritz and his team found, music and the emotions it conveys are cultural universals.",
+      "filter": null
+    },
+    {
+      "id": "Q03",
+      "split": "dev",
+      "question": "Within Chapter 3, what does ethnocentrism mean?",
+      "expected_answer": "Judging other cultures by one's own culture as the standard and treating cultures that do not measure up as wrong.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 81,
+      "evidence_quote": "Ethnocentrism is believing your group is the correct measuring standard and if other cultures do not measure up to it, they are wrong.",
+      "filter": {
+        "chapter": 3
+      }
+    },
+    {
+      "id": "Q04",
+      "split": "dev",
+      "question": "Using Chapter 3's definition, how should a culture be assessed under cultural relativism?",
+      "expected_answer": "By its own standards rather than through the lens of one's own culture.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 82,
+      "evidence_quote": "Cultural relativism is the practice of assessing a culture by its own standards rather than viewing it through the lens of one's own culture.",
+      "filter": {
+        "chapter": 3
+      }
+    },
+    {
+      "id": "Q05",
+      "split": "dev",
+      "question": "According to the text, how long can it take to recover from culture shock and fully adjust to a new culture?",
+      "expected_answer": "Recovery can take weeks or months; fully adjusting can take years.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 84,
+      "evidence_quote": "It can take weeks or months to recover from culture shock, and it can take years to fully adjust to living in a new culture.",
+      "filter": null
+    },
+    {
+      "id": "Q06",
+      "split": "dev",
+      "question": "What are cultural beliefs, according to the chapter?",
+      "expected_answer": "Tenets or convictions that people hold to be true.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 85,
+      "evidence_quote": "beliefs, which are the tenets or convictions that people hold to be true.",
+      "filter": null
+    },
+    {
+      "id": "Q07",
+      "split": "dev",
+      "question": "What role do values play in learning a culture's beliefs?",
+      "expected_answer": "Values are deeply embedded and are critical for learning a culture's beliefs.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 85,
+      "evidence_quote": "Values are deeply embedded and are critical for learning a culture's beliefs.",
+      "filter": null
+    },
+    {
+      "id": "Q08",
+      "split": "dev",
+      "question": "Within Chapter 3, what behavior does the text define as a norm?",
+      "expected_answer": "Behavior reflecting compliance with what a culture or society defines as good, right, and important.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 86,
+      "evidence_quote": "Norms are behaviors that reflect compliance with what cultures and societies have defined as good, right, and important.",
+      "filter": {
+        "chapter": 3
+      }
+    },
+    {
+      "id": "Q09",
+      "split": "dev",
+      "question": "What distinguishes mores, and how may a group's strongest mores be protected?",
+      "expected_answer": "Mores embody a group's moral views and principles, often have a religious foundation, and the strongest may be protected by laws and formal sanctions.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 87,
+      "evidence_quote": "Mores (mor-ays) are norms that embody the moral views and principles of a group. They often have a religious foundation. Violating them can have serious consequences. The strongest mores are protected with laws and other formal sanctions.",
+      "filter": null
+    },
+    {
+      "id": "Q10",
+      "split": "dev",
+      "question": "How are folkways morally distinguished from mores?",
+      "expected_answer": "Folkways are norms without any moral underpinnings.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 87,
+      "evidence_quote": "Unlike mores, folkways are norms without any moral underpinnings.",
+      "filter": null
+    },
+    {
+      "id": "Q11",
+      "split": "dev",
+      "question": "How do symbols help people make sense of the world?",
+      "expected_answer": "Symbols such as gestures, signs, objects, signals, and words help people understand the world and communicate shared meanings.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 88,
+      "evidence_quote": "Symbols—such as gestures, signs, objects, signals, and words—help people understand that world. They provide communication methods to understanding experiences by conveying recognizable meanings that are shared by societies.",
+      "filter": null
+    },
+    {
+      "id": "Q12",
+      "split": "dev",
+      "question": "What relationship between language, thought, and behavior does the Sapir-Whorf hypothesis suggest?",
+      "expected_answer": "Language shapes thought and thus behavior.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 90,
+      "evidence_quote": "The hypothesis suggests that language shapes thought and thus behavior.",
+      "filter": null
+    },
+    {
+      "id": "Q13",
+      "split": "dev",
+      "question": "Within Chapter 3, what defines a subculture?",
+      "expected_answer": "A smaller cultural group within a larger culture whose members also share a specific identity within that smaller group.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 93,
+      "evidence_quote": "A subculture is just what it sounds like—a smaller cultural group within a larger culture. People of a subculture are part of the larger culture but also share a specific identity within a smaller group.",
+      "filter": {
+        "chapter": 3
+      }
+    },
+    {
+      "id": "Q14",
+      "split": "dev",
+      "question": "How can a counterculture differ from a subculture in its response to the larger society?",
+      "expected_answer": "A counterculture may actively defy the larger society and develop its own rules and norms; a subculture generally operates relatively smoothly within it.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 93,
+      "evidence_quote": "In contrast to subcultures, which operate relatively smoothly within the larger society, countercultures might actively defy larger society by developing their own set of rules and norms to live by.",
+      "filter": null
+    },
+    {
+      "id": "Q15",
+      "split": "dev",
+      "question": "What does the chapter define as an innovation?",
+      "expected_answer": "An object's or concept's initial appearance in society.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 94,
+      "evidence_quote": "An innovation refers to an object or concept's initial appearance in society—it is innovative because it is new.",
+      "filter": null
+    },
+    {
+      "id": "Q16",
+      "split": "test",
+      "question": "How do information societies differ from industrial societies in what they produce?",
+      "expected_answer": "Industrial societies are rooted in producing material goods, while information societies are based on producing information and services.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 112,
+      "evidence_quote": "Unlike industrial societies that are rooted in the production of material goods, information societies are based on the production of information and services.",
+      "filter": null
+    },
+    {
+      "id": "Q17",
+      "split": "test",
+      "question": "Why did herding (pastoral) societies remain nomadic?",
+      "expected_answer": "They had to follow their animals to fresh feeding grounds.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 109,
+      "evidence_quote": "Herding, or pastoral, societies remained nomadic because they were forced to follow their animals to fresh feeding grounds.",
+      "filter": null
+    },
+    {
+      "id": "Q18",
+      "split": "test",
+      "question": "Filter to Chapter 4 (Society): what conditions supported horticultural societies, and what settlement pattern became possible?",
+      "expected_answer": "Rainfall and other conditions allowed stable crops to grow; people could remain in one place and form permanent settlements instead of following resources.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 110,
+      "evidence_quote": "Horticultural societies formed in areas where rainfall and other conditions allowed them to grow stable crops. They were similar to hunter-gatherers in that they largely depended on the environment for survival, but since they didn't have to abandon their location to follow resources, they were able to start permanent settlements.",
+      "filter": {
+        "chapter": 4
+      }
+    },
+    {
+      "id": "Q19",
+      "split": "test",
+      "question": "How did agricultural societies differ from pastoral and horticultural societies in the tools they relied on?",
+      "expected_answer": "Agricultural societies relied on permanent tools, rather than the small, temporary tools used by pastoral and horticultural societies.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 111,
+      "evidence_quote": "While pastoral and horticultural societies used small, temporary tools such as digging sticks or hoes, agricultural societies relied on permanent tools for survival.",
+      "filter": null
+    },
+    {
+      "id": "Q20",
+      "split": "test",
+      "question": "Within Chapter 4, what did Durkheim mean by social facts?",
+      "expected_answer": "Social forces considered real and existing outside the individual.",
+      "gold_source_id": "openstax-introduction-sociology-3e",
+      "gold_page": 114,
+      "evidence_quote": "Durkheim called these elements of society 'social facts.' By this, he meant that social forces were to be considered real and existed outside the individual.",
+      "filter": {
+        "chapter": 4
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed_size,500,50,"document_id; source; pdf_page; chapter",none,"FastEmbed BAAI/bge-small-en-v1.5 384d","Fixed-size chunks with overlap may preserve local context and improve evidence retrieval.","6/15 (0.400)","11/15 (0.733)","3/5 (0.600)","4/5 (0.800)","224 chunks; document embedding 10.071 s; API cost USD 0."
+B,paragraph_heading,500,0,"document_id; source; pdf_page; chapter",none,"FastEmbed BAAI/bge-small-en-v1.5 384d","Paragraph and heading boundaries may improve chunk coherence and top-1 retrieval.","7/15 (0.467)","9/15 (0.600)","4/5 (0.800)","4/5 (0.800)","236 chunks; document embedding 9.856 s; API cost USD 0."
+C,paragraph_heading,500,0,"document_id; source; pdf_page; chapter","chapter filter only when specified","FastEmbed BAAI/bge-small-en-v1.5 384d","Chapter filtering when requested may suppress off-chapter results without reducing evidence retrieval.","7/15 (0.467)","9/15 (0.600)","4/5 (0.800)","4/5 (0.800)","236 chunks; reused B document vectors; document embedding 0 s for C; API cost USD 0. Test Q18/Q20 filter complied."

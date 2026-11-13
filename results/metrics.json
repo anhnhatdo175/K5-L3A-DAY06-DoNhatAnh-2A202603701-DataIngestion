@@ -1,0 +1,86 @@
+{
+  "A": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "count": 6,
+        "total": 15,
+        "rate": 0.4
+      },
+      "evidence_hit_at_3": {
+        "count": 11,
+        "total": 15,
+        "rate": 0.7333333333333333
+      }
+    },
+    "test": {
+      "questions": 5,
+      "hit_at_1": {
+        "count": 3,
+        "total": 5,
+        "rate": 0.6
+      },
+      "evidence_hit_at_3": {
+        "count": 4,
+        "total": 5,
+        "rate": 0.8
+      }
+    }
+  },
+  "B": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "count": 7,
+        "total": 15,
+        "rate": 0.4666666666666667
+      },
+      "evidence_hit_at_3": {
+        "count": 9,
+        "total": 15,
+        "rate": 0.6
+      }
+    },
+    "test": {
+      "questions": 5,
+      "hit_at_1": {
+        "count": 4,
+        "total": 5,
+        "rate": 0.8
+      },
+      "evidence_hit_at_3": {
+        "count": 4,
+        "total": 5,
+        "rate": 0.8
+      }
+    }
+  },
+  "C": {
+    "dev": {
+      "questions": 15,
+      "hit_at_1": {
+        "count": 7,
+        "total": 15,
+        "rate": 0.4666666666666667
+      },
+      "evidence_hit_at_3": {
+        "count": 9,
+        "total": 15,
+        "rate": 0.6
+      }
+    },
+    "test": {
+      "questions": 5,
+      "hit_at_1": {
+        "count": 4,
+        "total": 5,
+        "rate": 0.8
+      },
+      "evidence_hit_at_3": {
+        "count": 4,
+        "total": 5,
+        "rate": 0.8
+      }
+    }
+  }
+}

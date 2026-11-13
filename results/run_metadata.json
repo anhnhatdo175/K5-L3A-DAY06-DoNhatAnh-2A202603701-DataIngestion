@@ -1,0 +1,113 @@
+{
+  "run_id": "20261113T101107Z",
+  "started_at_utc": "2026-11-13T10:11:07.115200+00:00",
+  "source_id": "openstax-introduction-sociology-3e",
+  "selected_pdf_pages": [
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114
+  ],
+  "question_count": 20,
+  "embedding": {
+    "provider": "FastEmbed local CPU",
+    "requested_model": "BAAI/bge-small-en-v1.5",
+    "dimensions": 384,
+    "document_tokens_by_strategy": {
+      "A": null,
+      "B": null,
+      "C": null
+    },
+    "query_tokens_shared": null,
+    "total_input_tokens": null,
+    "token_usage_available": false,
+    "query_embedding_seconds": 0.1452332849994491,
+    "estimated_cost_usd": 0.0,
+    "cost_note": "Local inference; no embedding API token charges."
+  },
+  "vector_store": {
+    "backend": "PostgreSQL + pgvector",
+    "metric": "cosine distance",
+    "search": "exact"
+  },
+  "strategies": {
+    "A": {
+      "chunk_count": 224,
+      "total_chunk_characters": 105283,
+      "min_chunk_characters": 57,
+      "mean_chunk_characters": 470.01339285714283,
+      "max_chunk_characters": 500,
+      "chunking_seconds": 0.0021899980001762742,
+      "document_embedding_seconds": 10.070819598000526,
+      "document_embedding_tokens": null,
+      "store_seconds": 0.29758857100023306,
+      "search_seconds": 0.3081556420002016,
+      "document_vectors_reused_from": null
+    },
+    "B": {
+      "chunk_count": 236,
+      "total_chunk_characters": 95442,
+      "min_chunk_characters": 60,
+      "mean_chunk_characters": 404.41525423728814,
+      "max_chunk_characters": 500,
+      "chunking_seconds": 0.007395345999611891,
+      "document_embedding_seconds": 9.855727701999967,
+      "document_embedding_tokens": null,
+      "store_seconds": 0.19398344399996859,
+      "search_seconds": 0.39279763299964543,
+      "document_vectors_reused_from": null
+    },
+    "C": {
+      "chunk_count": 236,
+      "total_chunk_characters": 95442,
+      "min_chunk_characters": 60,
+      "mean_chunk_characters": 404.41525423728814,
+      "max_chunk_characters": 500,
+      "chunking_seconds": 0.0,
+      "document_embedding_seconds": 0.0,
+      "document_embedding_tokens": null,
+      "store_seconds": 0.17552792800051975,
+      "search_seconds": 0.5612450140006331,
+      "document_vectors_reused_from": "B"
+    }
+  },
+  "coherence_sample_pages": [
+    77,
+    78,
+    79,
+    80,
+    81,
+    107,
+    108,
+    109,
+    110,
+    111
+  ],
+  "output_directory": "results"
+}
